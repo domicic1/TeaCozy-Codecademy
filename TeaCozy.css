@@ -1,0 +1,130 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    z-index: 1;
+    height: 69px;
+    margin: 0;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+}
+.logo-img {
+    height: 50px;
+    display: inline-block;
+    margin: 0 auto 0 10px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5px;
+    flex-wrap: no-wrap;
+    flex-shrink: 0;
+}
+a {
+    margin: 5px;
+}
+
+.main {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 700px;
+    margin: 69px auto 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+}
+.main h2,
+.main h4 {
+    padding: 12px;
+    margin: 0;
+    z-index: 1;
+    opacity: 1;
+    font-weight: bold;
+}
+h2 {
+    font-size: 28px;
+}
+
+.featured-tea {
+    width: 1000px;
+    text-align: center;
+    margin: 70px auto 50px;
+}
+.featured-tea h4 {
+    margin-bottom: 18px;
+}
+.teas {
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tea {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 0 16px 70px;
+    flex-direction: column;
+}
+.tea p {
+    font-weight: 800;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    width: 1200px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+}
+.locations h2 {
+    background-color: transparent;
+    padding-top: 75px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.loc {
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    font-weight: 700;
+    opacity: 1;
+    line-height: 20px;
+}
+.loc h3 {
+    font-size: 26px; 
+}
+.loc1, .loc2 {
+    margin-right: 40px;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+}
+.foot {
+    font-size: 30px;
+}
+.copy {
+    text-align: left;
+    margin-left: 20px;
+}
